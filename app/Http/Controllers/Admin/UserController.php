@@ -73,6 +73,13 @@ class UserController extends Controller
 
         return redirect('admin/user/sua/'.$id)->with('message','Sửa thành công');
     }
+
+     public function getDelUser($id)
+   {
+        $user = User::find($id);
+        $user->delete();
+        return redirect('admin/user/danh-sach')->with('message','Xóa thành công');
+   }
     public function getAdminLogin()
     {
         if(Auth::guard('admins')->check())

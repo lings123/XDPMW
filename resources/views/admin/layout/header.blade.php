@@ -79,7 +79,7 @@
                                 </li>
                                 
                                 <li>
-                                    <a href="{{ route('themdanhmuc') }}">Thêm</a>
+                                    <a href="{{ route('themsanpham') }}">Thêm</a>
                                 </li>
                                 
                             </ul>

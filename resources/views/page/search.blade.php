@@ -80,5 +80,5 @@
 <!--end-wrapper-->
 @endsection
 @section('title')
-	
+	Ket Qua Tim Kiem
 @endsection

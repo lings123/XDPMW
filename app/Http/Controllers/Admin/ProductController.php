@@ -275,4 +275,11 @@ class ProductController extends Controller
         echo "true";
     }   
 
+    public function getDelProduct($id)
+   {
+        $pro = Product::find($id);
+        $pro->delete();
+        return redirect('admin/san-pham/danh-sach')->with('message','Xóa thành công');
+   }
+
 }

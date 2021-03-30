@@ -37,6 +37,7 @@ Route::get('dang-xuat','PageController@getDangXuat');
 
 Route::get('tim-kiem',['as'=>'search','uses'=>'PageController@getSearch']);
 
+
 Route::group(['prefix'=>'ajax'],function (){
 	Route::post('add-to-cart','AjaxController@postAjaxAddtoCart');
 
@@ -44,6 +45,7 @@ Route::group(['prefix'=>'ajax'],function (){
 
 	Route::post('xuly-quantity','AjaxController@postAjaxXulyQuantity');
 });
+
 
 Route::group(['prefix'=>'user'], function (){
 	Route::get('profile',['as'=>'user.profile', 'uses'=>'PageController@getUserProfile']);
@@ -97,6 +99,8 @@ Route::group(['prefix'=>'admin','namespace'=>'Admin'],function(){
 		Route::get("hinh/sua/{id}","ProductController@getEditImage");
 
 		Route::post("hinh/sua/{id}","ProductController@postEditImage");
+		
+		Route::get('xoa/{id}',"ProductController@getDelProduct");
 
 	});
 

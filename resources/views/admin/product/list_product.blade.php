@@ -47,7 +47,7 @@
                                 <td>Hiện</td>
                                 <td class="center"><i class="fa fa-plus-square fa-fw"></i> <a href=""  class="view-size"  data-toggle="modal" data-target="#myModal"  data-viewid='{{$product->id}}'>Xem</a></td>
                                 
-                                <td class="center"  ><i class="fa fa-trash-o fa-fw"></i> <a href="javascript:void(0)"  >Xóa</a></td>
+                                <td class="center"  ><i class="fa fa-trash-o fa-fw"></i> <a href="admin/san-pham/xoa/{{$product->id}}"  >Xóa</a></td>
                                 <td class="center"><i class="fa fa-pencil fa-fw"></i> <a href="admin/san-pham/sua/{{$product->id}}">Sửa</a></td>
                             </tr>
                             
