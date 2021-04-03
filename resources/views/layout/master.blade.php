@@ -9,7 +9,10 @@
 
 	<link rel="stylesheet" type="text/css" href="public/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="public/css/mystyle.css">
-
+	<link rel="apple-touch-icon" sizes="180x180" href="public/images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="public/images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="public/images/favicon-16x16.png">
+<link rel="manifest" href="public/images/site.webmanifest">
 	<link href="public/css/glyphicons.css" rel="stylesheet" />
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js" rel="stylesheet">
